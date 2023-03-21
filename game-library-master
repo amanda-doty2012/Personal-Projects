@@ -48,7 +48,7 @@ const game_lib = [
    our_rating:
    }
    {
-   game: 'Betrayal at Baldur's Gate'
+   game: 'Betrayal at Baldurs Gate'
    min_players: 3
    max_players: 6
    playtime: 60
@@ -72,123 +72,123 @@ const game_lib = [
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Cards Against Humanity'
+   min_players: 4
+   max_players: 30
+   playtime: 30
+   fiddly_bits: 'no'
+   weight: 1.19
+   player_relation: 'competitve'
+   play_mechanics: ['party game', 'hand management', 'voting']
+   bgg_rating: 5.8
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Catan'
+   min_players: 3
+   max_players: 4
+   playtime: 120
+   fiddly_bits: 'no'
+   weight: 2.3
+   player_relation: 'competitive'
+   play_mechanics: ['dice rolling', 'negotiation', 'hand management']
+   bgg_rating: 5.8
+   our_rating: 6
+   }
+   {
+   game: 'Checkers'
+   min_players: 2
+   max_players: 2
+   playtime: 30
+   fiddly_bits: 'no'
+   weight: 1.74
+   player_relation: 'competitive'
+   play_mechanics: ['grid movement']
+   bgg_rating: 4.9
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Chess'
+   min_players: 2
+   max_players: 2
+   playtime: 60
+   fiddly_bits: 'no'
+   weight: 3.67
+   player_relation: 'competitive'
+   play_mechanics: ['heavy strategy', 'grid movement']
+   bgg_rating: 7.2
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Citadels'
+   min_players: 2
+   max_players: 8
+   playtime: 60
+   fiddly_bits: 'no'
+   weight: 2.05
+   player_relation: 'competitive'
+   play_mechanics: ['tableau building', 'player powers']
+   bgg_rating: 7.1
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Clue'
+   min_players: 2
+   max_players: 8
+   playtime: 60
+   fiddly_bits: 'yes'
+   weight: 1.65
+   player_relation: 'competitive'
+   play_mechanics: ['deduction', 'memory']
+   bgg_rating: 5.7
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Coup'
+   min_players: 2 
+   max_players: 6
+   playtime: 15
+   fiddly_bits: 'no'
+   weight: 1.41
+   player_relation: 'competitive'
+   play_mechanics: ['bluffing', 'deduction', 'player elimination']
+   bgg_rating:7
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Cryptid'
+   min_players: 3
+   max_players: 5
+   playtime: 50
+   fiddly_bits: 'yes'
+   weight: 2.24
+   player_relation: 'competitive'
+   play_mechanics: ['deduction', 'pattern recognition']
+   bgg_rating: 7.5
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Cup of Bluff'
+   min_players: 2
+   max_players: 5
+   playtime: 20
+   fiddly_bits: 'no'
+   weight: 1
+   player_relation: 'competitive'
+   play_mechanics: ['dice rolling', 'bluffing']
+   bgg_rating: 4.9
    our_rating:
    }
    {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
-   our_rating:
-   }
-   {
-   game:
-   min_players:
-   max_players:
-   playtime:
-   fiddly_bits:
-   weight:
-   player_relation:
-   play_mechanics:
-   bgg_rating:
+   game: 'Dark Tales'
+   min_players: 2
+   max_players: 4
+   playtime: 30
+   fiddly_bits: 'no'
+   weight: 1.57
+   player_relation: 'competitive'
+   play_mechanics: ['storytelling', 'hand management', 'set collection']
+   bgg_rating: 6.5
    our_rating:
    }
    {
