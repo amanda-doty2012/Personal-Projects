@@ -2,7 +2,7 @@
 Amanda Doty
 
 
-<h1>What interests you?</h1>
+<h2>What interests you?</h2>
 
 <h4>Game Library Project (in progress)</h4>
 <p>This is a project designed to catalogue the library of games my partner and I have collected over the years. I will then take that library and create an app that we can use to help us decide what to play based on criteria like play time, rating, number of players, or "fiddly bits."</p>
