@@ -1,0 +1,63 @@
+game,# of players - min,# of players - max,est. play time - minutes,fiddly bits?,weight,player_relation,play_mechanic,BGG rating,My Rating,Jason's Rating,Our Rating
+Alchemists,2,4,120,yes,3.92,competitive,"deduction, hand management, drafting",7.7,No Rating,No Rating,No Rating
+Avalon,5,10,30,no,1.75,hidden roles,"traitor, team-based",7.5,No Rating,No Rating,No Rating
+Backgammon,2,2,30,no,2.01,competitive,dice rolling,6.6,No Rating,No Rating,No Rating
+Betrayal,3,6,60,yes,2.39,hidden traitor,"dice rolling, player elimination, storytelling",7,No Rating,No Rating,No Rating
+Betrayal_at_baldurs_gate,3,6,60,yes,2.55,hidden traitor,"dice rolling, player elimination, storytelling",7.1,No Rating,No Rating,No Rating
+Cant_stop,2,4,30,no,1.15,competitive,"dice rolling, press your luck",6.9,No Rating,No Rating,No Rating
+Cards_against_humanity,4,30,30,no,1.19,competitive,"party game, hand management, voting",5.8,No Rating,No Rating,No Rating
+Catan,3,4,120,no,2.3,competitive,"dice rolling, negotiation, hand management",7.1,3,No Rating,6.0
+Checkers,2,2,30,no,1.74,competitive,grid movement,4.9,No Rating,No Rating,No Rating
+Chess,2,2,60,no,3.67,competitive,"heavy strategy, grid movement",7.2,2,4,6.0
+Citadels,2,8,60,no,2.05,competitive,tableau building,7.1,No Rating,No Rating,No Rating
+Clue,2,8,60,yes,1.65,competitive,"deduction, memory",5.7,No Rating,No Rating,No Rating
+Coup,2,6,15,no,1.41,competitive,"bluffing, deduction, player elimination",7,No Rating,No Rating,No Rating
+Cryptid,3,5,50,yes,2.24,competitive,"deduction, pattern recognition",7.5,No Rating,No Rating,No Rating
+Cup_of_bluff,2,5,20,no,1,competitive,"dice rolling, bluffing",4.9,No Rating,No Rating,No Rating
+Dark_tales,2,4,30,no,1.57,competitive,"storytelling, hand management, set collection",6.5,No Rating,No Rating,No Rating
+Dixit,3,8,30,no,1.2,competitive,"race, storytelling, voting",7.2,No Rating,No Rating,No Rating
+Dominion,2,4,60,no,2.35,competitive,"hand management, deck building",7.6,3.714285714,No Rating,7.4
+Dos,2,4,45,no,1.42,competitive,"hand management, take that",4.9,No Rating,No Rating,No Rating
+Draculas_feast,4,8,15,no,1.38,hidden roles,"bluffing, deduction, player elimination",6.8,No Rating,No Rating,No Rating
+Dragon_farkle,2,5,30,no,1.56,competitive,"dice rolling, fighting, resource managment, push your luck",6.4,No Rating,No Rating,No Rating
+Exploding_kittens,2,5,15,no,1.09,competitive,"hand management, player elimination, push your luck",6,2,No Rating,4.0
+Fairytale_gloom,2,4,60,no,1.63,competitive,"storytelling, hand management, take that",6.49,No Rating,No Rating,No Rating
+Five_crowns,1,7,30,no,1.24,competitive,"hand management, set collection",6.04,No Rating,No Rating,No Rating
+Forbidden_island,2,4,30,no,1.74,cooperative,"grid movement, hand management, set collection, map reduction",6.8,No Rating,No Rating,No Rating
+Gloom,2,4,60,no,1.63,competitive,"storytelling, hand management, take that",6.33,No Rating,No Rating,No Rating
+Gravwell,2,6,45,no,2.14,competitive,turn-based drafting,7.25,4,No Rating,8.0
+Hanabi,2,5,25,no,1.69,cooperative,"communication limits, hand management, memory",7.1,No Rating,No Rating,No Rating
+Hive,2,2,20,no,2.32,competitive,"tile placement, three-dimensional movement",7.32,No Rating,No Rating,No Rating
+Inn_fighting,3,6,30,yes,1.54,competitive,"party game, fighting, dice rolling",5.91,No Rating,No Rating,No Rating
+Libertalia,2,6,60,yes,2.24,competitive,"silent bidding, set collection, hand management",7.13,No Rating,No Rating,No Rating
+Lords_of_waterdeep,2,5,120,yes,2.45,competitive,"hidden roles, worker placement",7.74,No Rating,No Rating,No Rating
+Love_letter,2,4,20,no,1.19,competitive,"player elimination, hand management",7.22,No Rating,No Rating,No Rating
+Lovecraft_letter,2,6,15,no,1.42,competitive,"player elimination, hand management",7.21,No Rating,No Rating,No Rating
+Mille_bornes,2,6,45,no,1.25,competitive,"hand management, take that",5.71,No Rating,No Rating,No Rating
+Munchkin,3,6,90,no,1.81,competitive,"hand management, take that",5.88,No Rating,No Rating,No Rating
+Mysterium,2,7,45,no,1.9,cooperative,"deduction, hand management, voting",7.24,No Rating,No Rating,No Rating
+Once_upon_a_time,2,6,30,no,1.37,competitive,"hand management, interuptions, storytelling, voting",6.38,No Rating,No Rating,No Rating
+Pandemic,2,4,60,yes,2.4,cooperative,"hand management, set collection, player powers",7.6,No Rating,No Rating,No Rating
+Parcheesi,2,6,30,no,1.19,competitive,"dice rolling, race, take that",4.51,4,3.5,7.5
+Perpetual_commotion,2,6,45,no,1.11,competitive,"hand management, no turns",6.3,No Rating,No Rating,No Rating
+Pirate_fluxx,2,6,40,no,1.42,competitive,"hand management, set collection, variable rules",6.19,No Rating,No Rating,No Rating
+Race_for_the_galaxy,2,4,60,yes,2.99,competitive,"tableau building, simultaneous action selection, variable phases",7.75,4,No Rating,8.0
+Racko,2,4,45,no,1.2,competitive,"pattern building, card game",5.82,No Rating,No Rating,No Rating
+Red_november,1,8,120,yes,2.07,cooperative,"area movement, dice rolling, hand management",6.3,No Rating,No Rating,No Rating
+Sentinels_of_the_multiverse,2,5,60,no,2.51,cooperative,"hand management, team based, player elimination",7.16,No Rating,No Rating,No Rating
+Sequence,2,12,30,yes,1.33,competitive,"hand management, team-based",6.09,No Rating,No Rating,No Rating
+Sheriff_of_nottingham,3,5,60,no,1.65,competitive,"bluffing, bribing, hand management, open drafting",7.09,3,No Rating,6.0
+Spheres_of_influence,2,8,90,yes,2.39,competitive,"dice rolling, point to point movement, random turn order",7.92,No Rating,No Rating,No Rating
+Splendor,2,4,30,yes,1.78,competitive,"open drafting, set collection, race",7.43,No Rating,No Rating,No Rating
+Star_fluxx,2,6,40,no,1.42,competitive,"hand management, set collection, variable rules",6.31,4,No Rating,8.0
+Stealth_chess,2,2,30,no,1.67,competitive,"deduction, grid movement, memory",5.79,No Rating,No Rating,No Rating
+Strain,3,7,60,yes,2.2,competitive,"hand management, fighting, tile placement",5.52,No Rating,No Rating,No Rating
+The_crew,2,5,20,no,1.98,cooperative,"communication limits, hand management, trick-taking",7.86,No Rating,No Rating,No Rating
+The_mind,2,4,20,no,1.07,cooperative,limited communication,6.79,No Rating,No Rating,No Rating
+Think_str8,2,4,60,no,2.33,competitive,"deduction, dice rolling",6.9,No Rating,No Rating,No Rating
+Ticket_to_ride,2,5,60,yes,1.84,competitive,"hand management, drafting, set collection",8,No Rating,No Rating,No Rating
+Tsuro,2,8,20,no,1.23,competitive,"player elimination, tile placement",6.66,No Rating,No Rating,No Rating
+Uno,2,10,30,no,1.11,competitive,"hand management, take that",5.43,No Rating,No Rating,No Rating
+Upwords,2,4,90,yes,1.68,competitive,"word game, hand management, tile placement",5.74,No Rating,No Rating,No Rating
+Welcome_to_the_dungeon,2,4,30,no,1.23,competitive,"betting, bluffing, player elimination, push your luck",6.56,No Rating,No Rating,No Rating
+Werewords,4,10,10,no,1.16,competitive,"hidden roles, traitor, voting, party game",7.15,No Rating,No Rating,No Rating
