@@ -1,210 +1,192 @@
-const game_lib = [
-   {
-   game: 'Alchemists',
-   min_players: 2,
-   max_players: 4,
-   playtime: 120,
-   fiddly_bits: 'yes',
-   weight: 3.92,
-   player_relation: 'competitive',
-   play_mechanics: ['deduction', 'hand management', 'drafting'],
-   bgg_rating: 7.7,
-   our_rating:null, 
+const game_lib = {
+   Alchemists:{
+      min_players: 2,
+      max_players: 4,
+      playtime: 120,
+      fiddly_bits: 'yes',
+      weight: 3.92,
+      player_relation: 'competitive',
+      play_mechanics: ['deduction', 'hand management', 'drafting'],
+      bgg_rating: 7.7,
+      our_rating:null, 
    },
-   {
-   game: 'Avalon',
-   min_players: 5,
-   max_players: 10,
-   playtime: 30,
-   fiddly_bits: 'no',
-   weight: 1.75,
-   player_relation: 'hidden roles',
-   play_mechanics: ['traitor', 'team-based'],
-   bgg_rating: 7.5,
-   our_rating:null,
+   Avalon: {
+      min_players: 5,
+      max_players: 10,
+      playtime: 30,
+      fiddly_bits: 'no',
+      weight: 1.75,
+      player_relation: 'hidden roles',
+      play_mechanics: ['traitor', 'team-based'],
+      bgg_rating: 7.5,
+      our_rating:null,
    },
-   {
-   game: 'Backgammon',
-   min_players: 2,
-   max_players: 2,
-   playtime: 30,
-   fiddly_bits: 'no',
-   weight: 2.01,
-   player_relation: 'competitive',
-   play_mechanics: ['dice rolling'],
-   bgg_rating: 6.6,
-   our_rating:null,
+   Backgammon: {
+      min_players: 2,
+      max_players: 2,
+      playtime: 30,
+      fiddly_bits: 'no',
+      weight: 2.01,
+      player_relation: 'competitive',
+      play_mechanics: ['dice rolling'],
+      bgg_rating: 6.6,
+      our_rating:null,
    },
-   {
-   game: 'Betrayal at House on the Hill',
-   min_players: 3,
-   max_players: 6,
-   playtime: 60,
-   fiddly_bits: 'yes',
-   weight: 2.39,
-   player_relation: 'hidden traitor',
-   play_mechanics: ['dice rolling', 'player elimination', 'storytelling'],
-   bgg_rating: 7,
-   our_rating:null,
+   "Betrayal at House on the Hill": {
+      min_players: 3,
+      max_players: 6,
+      playtime: 60,
+      fiddly_bits: 'yes',
+      weight: 2.39,
+      player_relation: 'hidden traitor',
+      play_mechanics: ['dice rolling', 'player elimination', 'storytelling'],
+      bgg_rating: 7,
+      our_rating:null,
    },
-   {
-   game: 'Betrayal at Baldurs Gate',
-   min_players: 3,
-   max_players: 6,
-   playtime: 60,
-   fiddly_bits: 'yes',
-   weight: 2.55,
-   player_relation: 'hidden traitor',
-   play_mechanics: ['dice rolling', 'player elimination', 'storytelling'],
-   bgg_rating: 7.1,
-   our_rating:null,
+   "Betrayal at Baldur's Gate": {
+      min_players: 3,
+      max_players: 6,
+      playtime: 60,
+      fiddly_bits: 'yes',
+      weight: 2.55,
+      player_relation: 'hidden traitor',
+      play_mechanics: ['dice rolling', 'player elimination', 'storytelling'],
+      bgg_rating: 7.1,
+      our_rating:null,
    },
-   {
-   game: 'Can\'t Stop',
-   min_players: 2,
-   max_players: 4,
-   playtime: 30,
-   fiddly_bits: 'no',
-   weight: 1.15,
-   player_relation: 'competitive',
-   play_mechanics: ['dice rolling', 'press your luck'],
-   bgg_rating: 6.9,
-   our_rating:null,
+   "Can't Stop": {
+      min_players: 2,
+      max_players: 4,
+      playtime: 30,
+      fiddly_bits: 'no',
+      weight: 1.15,
+      player_relation: 'competitive',
+      play_mechanics: ['dice rolling', 'press your luck'],
+      bgg_rating: 6.9,
+      our_rating:null,
    },
-   {
-   game: 'Cards Against Humanity',
-   min_players: 4,
-   max_players: 30,
-   playtime: 30,
-   fiddly_bits: 'no',
-   weight: 1.19,
-   player_relation: 'competitve',
-   play_mechanics: ['party game', 'hand management', 'voting'],
-   bgg_rating: 5.8,
-   our_rating:null,
+   "Cards Against Humanity": {
+      min_players: 4,
+      max_players: 30,
+      playtime: 30,
+      fiddly_bits: 'no',
+      weight: 1.19,
+      player_relation: 'competitve',
+      play_mechanics: ['party game', 'hand management', 'voting'],
+      bgg_rating: 5.8,
+      our_rating:null,
    },
-   {
-   game: 'Catan',
-   min_players: 3,
-   max_players: 4,
-   playtime: 120,
-   fiddly_bits: 'no',
-   weight: 2.3,
-   player_relation: 'competitive',
-   play_mechanics: ['dice rolling', 'negotiation', 'hand management'],
-   bgg_rating: 5.8,
-   our_rating: 6,
+   Catan: {
+      min_players: 3,
+      max_players: 4,
+      playtime: 120,
+      fiddly_bits: 'no',
+      weight: 2.3,
+      player_relation: 'competitive',
+      play_mechanics: ['dice rolling', 'negotiation', 'hand management'],
+      bgg_rating: 5.8,
+      our_rating: 6,
    },
-   {
-   game: 'Checkers',
-   min_players: 2,
-   max_players: 2,
-   playtime: 30,
-   fiddly_bits: 'no',
-   weight: 1.74,
-   player_relation: 'competitive',
-   play_mechanics: ['grid movement'],
-   bgg_rating: 4.9,
-   our_rating: null,
+   Checkers: {
+      min_players: 2,
+      max_players: 2,
+      playtime: 30,
+      fiddly_bits: 'no',
+      weight: 1.74,
+      player_relation: 'competitive',
+      play_mechanics: ['grid movement'],
+      bgg_rating: 4.9,
+      our_rating: null,
    },
-   {
-   game: 'Chess',
-   min_players: 2,
-   max_players: 2,
-   playtime: 60,
-   fiddly_bits: 'no',
-   weight: 3.67,
-   player_relation: 'competitive',
-   play_mechanics: ['heavy strategy', 'grid movement'],
-   bgg_rating: 7.2,
-   our_rating:null,
+   Chess: {
+      min_players: 2,
+      max_players: 2,
+      playtime: 60,
+      fiddly_bits: 'no',
+      weight: 3.67,
+      player_relation: 'competitive',
+      play_mechanics: ['heavy strategy', 'grid movement'],
+      bgg_rating: 7.2,
+      our_rating:null,
    },
-   {
-   game: 'Citadels',
-   min_players: 2,
-   max_players: 8,
-   playtime: 60,
-   fiddly_bits: 'no',
-   weight: 2.05,
-   player_relation: 'competitive',
-   play_mechanics: ['tableau building', 'player powers'],
-   bgg_rating: 7.1,
-   our_rating:null,
+   Citadels: {
+      min_players: 2,
+      max_players: 8,
+      playtime: 60,
+      fiddly_bits: 'no',
+      weight: 2.05,
+      player_relation: 'competitive',
+      play_mechanics: ['tableau building', 'player powers'],
+      bgg_rating: 7.1,
+      our_rating:null,
    },
-   {
-   game: 'Clue',
-   min_players: 2,
-   max_players: 8,
-   playtime: 60,
-   fiddly_bits: 'yes',
-   weight: 1.65,
-   player_relation: 'competitive',
-   play_mechanics: ['deduction', 'memory'],
-   bgg_rating: 5.7,
-   our_rating:null,
+   CLue: {
+      min_players: 2,
+      max_players: 8,
+      playtime: 60,
+      fiddly_bits: 'yes',
+      weight: 1.65,
+      player_relation: 'competitive',
+      play_mechanics: ['deduction', 'memory'],
+      bgg_rating: 5.7,
+      our_rating:null,
    },
-   {
-   game: 'Coup',
-   min_players: 2,
-   max_players: 6,
-   playtime: 15,
-   fiddly_bits: 'no',
-   weight: 1.41,
-   player_relation: 'competitive',
-   play_mechanics: ['bluffing', 'deduction', 'player elimination'],
-   bgg_rating:7,
-   our_rating:null,
+   Coup: {
+      min_players: 2,
+      max_players: 6,
+      playtime: 15,
+      fiddly_bits: 'no',
+      weight: 1.41,
+      player_relation: 'competitive',
+      play_mechanics: ['bluffing', 'deduction', 'player elimination'],
+      bgg_rating:7,
+      our_rating:null,
    },
-   {
-   game: 'Cryptid',
-   min_players: 3,
-   max_players: 5,
-   playtime: 50,
-   fiddly_bits: 'yes',
-   weight: 2.24,
-   player_relation: 'competitive',
-   play_mechanics: ['deduction', 'pattern recognition'],
-   bgg_rating: 7.5,
-   our_rating:null,
+   Cryptid: {
+      min_players: 3,
+      max_players: 5,
+      playtime: 50,
+      fiddly_bits: 'yes',
+      weight: 2.24,
+      player_relation: 'competitive',
+      play_mechanics: ['deduction', 'pattern recognition'],
+      bgg_rating: 7.5,
+      our_rating:null,
    },
-   {
-   game: 'Cup of Bluff',
-   min_players: 2,
-   max_players: 5,
-   playtime: 20,
-   fiddly_bits: 'no',
-   weight: 1,
-   player_relation: 'competitive',
-   play_mechanics: ['dice rolling', 'bluffing'],
-   bgg_rating: 4.9,
-   our_rating:null,
+   "Cup of Bluff": {
+      min_players: 2,
+      max_players: 5,
+      playtime: 20,
+      fiddly_bits: 'no',
+      weight: 1,
+      player_relation: 'competitive',
+      play_mechanics: ['dice rolling', 'bluffing'],
+      bgg_rating: 4.9,
+      our_rating:null,
    },
-   {
-   game: 'Dark Tales',
-   min_players: 2,
-   max_players: 4,
-   playtime: 30,
-   fiddly_bits: 'no',
-   weight: 1.57,
-   player_relation: 'competitive',
-   play_mechanics: ['storytelling', 'hand management', 'set collection'],
-   bgg_rating: 6.5,
-   our_rating:null,
+   "Dark Tales": {
+      min_players: 2,
+      max_players: 4,
+      playtime: 30,
+      fiddly_bits: 'no',
+      weight: 1.57,
+      player_relation: 'competitive',
+      play_mechanics: ['storytelling', 'hand management', 'set collection'],
+      bgg_rating: 6.5,
+      our_rating:null,
    },
-   {
-   game: 'Dixit',
-   min_players: 3,
-   max_players: 8,
-   playtime: 30,
-   fiddly_bits: 'no',
-   weight: 1.2,
-   player_relation: 'competitive',
-   play_mechanics: ['race', 'storytellings', 'voting'],
-   bgg_rating: 7.2,
-   our_rating: null,
+   Dixit: {
+      min_players: 3,
+      max_players: 8,
+      playtime: 30,
+      fiddly_bits: 'no',
+      weight: 1.2,
+      player_relation: 'competitive',
+      play_mechanics: ['race', 'storytellings', 'voting'],
+      bgg_rating: 7.2,
+      our_rating: null,
    },
-   {
-      game: 'Dominion',
+   Dominion: {
       min_players: 2,
       max_players: 4,
       playtime: 60,
@@ -215,8 +197,7 @@ const game_lib = [
       bgg_rating: 7.6,
       our_rating: 7.4,
    },
-   {
-      game: 'Dos',
+   Dos: {
       min_players: 2,
       max_players:4,
       playtime: 45,
@@ -227,8 +208,7 @@ const game_lib = [
       bgg_rating:4.9,
       our_rating: null,
    },
-   {
-      game: 'Dracula\'s Feast',
+   "Dracula's Feast": {
       min_players: 4,
       max_players: 8,
       playtime: 15,
@@ -239,8 +219,7 @@ const game_lib = [
       bgg_rating: 6.8,
       our_rating:null,
    },
-   {
-      game: 'Dragon Farkle',
+   "Dragon Farkle": {
       min_players: 2,
       max_players: 5,
       playtime: 30,
@@ -251,8 +230,7 @@ const game_lib = [
       bgg_rating: 6.4,
       our_rating:null,
    },
-   {
-      game: 'Exploding Kittens',
+   "Exploding Kittens": {
       min_players: 2,
       max_players: 5,
       playtime: 15,
@@ -263,8 +241,7 @@ const game_lib = [
       bgg_rating:6,
       our_rating:4
    },
-   {
-      game:'Fairytale Gloom',
+   "Fairytale Gloom": {
       min_players:2,
       max_players:5,
       playtime: 60,
@@ -275,8 +252,7 @@ const game_lib = [
       bgg_rating:6.49,
       our_rating: null,
    },
-   {
-      game: 'Five Crowns',
+   "Five Crowns": {
       min_players: 1,
       max_players: 7,
       playtime: 30,
@@ -287,8 +263,7 @@ const game_lib = [
       bgg_rating:6.04,
       our_rating:null,
    },
-   {
-      game: 'Forbidden Island',
+   "Forbidden Island": {
       min_players: 2,
       max_players: 4,
       playtime: 30,
@@ -299,8 +274,7 @@ const game_lib = [
       bgg_rating:6.8,
       our_rating:null,
    },
-   {
-      game: 'Gloom',
+   Gloom: {
       min_players:2,
       max_players:4,
       playtime:60,
@@ -311,8 +285,7 @@ const game_lib = [
       bgg_rating:6.33,
       our_rating:null,
    },
-   {
-      game: 'Gravwell',
+   Gravwell: {
       min_players: 2,
       max_players: 6,
       playtime:45,
@@ -323,8 +296,7 @@ const game_lib = [
       bgg_rating:7.25,
       our_rating: 8,
    },
-   {
-      game: 'Hanabi',
+   Hanabi: {
       min_players:2,
       max_players:5,
       playtime: 25,
@@ -335,8 +307,7 @@ const game_lib = [
       bgg_rating:7.1,
       our_rating:null,
    },
-   {
-      game:'Hive',
+   Hive: {
       min_players:2,
       max_players:2,
       playtime:20,
@@ -347,8 +318,7 @@ const game_lib = [
       bgg_rating:7.32,
       our_rating:null,
    },
-   {
-      game: 'Inn-Fighting',
+   InnFighting: {
       min_players:3,
       max_players:6,
       playtime:30,
@@ -359,8 +329,7 @@ const game_lib = [
       bgg_rating:5.91,
       our_rating:null,
    },
-   {
-      game:'Libertalia',
+   Libertalia: {
       min_players:2,
       max_players:6,
       playtime:60,
@@ -371,8 +340,7 @@ const game_lib = [
       bgg_rating:7.13,
       our_rating:null,
    },
-   {
-      game: 'Lords of Waterdeep',
+   "Lords of Waterdeep": {
       min_players:2,
       max_players:5,
       playtime:120,
@@ -383,8 +351,7 @@ const game_lib = [
       bgg_rating:7.74,
       our_rating:null,
    },
-   {
-      game:'Love Letter',
+   "Love Letter":{
       min_players:2,
       max_players:4,
       playtime:20,
@@ -395,8 +362,7 @@ const game_lib = [
       bgg_rating:7.22,
       our_rating:null,
    },
-   {
-      game: 'Lovecraft Letter',
+   "Lovecraft Letter": {
       min_players:2,
       max_players:6,
       playtime:15,
@@ -407,8 +373,7 @@ const game_lib = [
       bgg_rating:7.21,
       our_rating:null,
    },
-   {
-      game:'Mille Bornes',
+   "Mille Bornes": {
       min_players:2,
       max_players:6,
       playtime:45,
@@ -419,8 +384,7 @@ const game_lib = [
       bgg_rating:5.71,
       our_rating:null,
    },
-   {
-      game:'Munchkin',
+   Munchkin: {
       min_players:3,
       max_players:6,
       playtime:90,
@@ -431,8 +395,7 @@ const game_lib = [
       bgg_rating:5.88,
       our_rating:null,
    },
-   {
-      game: 'Mysterium',
+   Mysterium: {
       min_players:2,
       max_players:7,
       playtime:45,
@@ -443,8 +406,7 @@ const game_lib = [
       bgg_rating:7.24,
       our_rating:null,
    },
-   {
-      game: 'Once Upon a Time',
+   "Once Upon a Time": {
       min_players:2,
       max_players:6,
       playtime:30,
@@ -455,8 +417,7 @@ const game_lib = [
       bgg_rating:6.38,
       our_rating:null,
    },
-   {
-      game:'Pandemic',
+   Pandemic: {
       min_players:2,
       max_players:4,
       playtime:60,
@@ -467,8 +428,7 @@ const game_lib = [
       bgg_rating:7.6,
       our_rating:null,
    },
-   {
-      game:'Parcheesi',
+   Parcheesi: {
       min_players:2,
       max_players:4,
       playtime:30,
@@ -479,8 +439,7 @@ const game_lib = [
       bgg_rating:4.51,
       our_rating:7.5,
    },
-   {
-      game:'Perpetual Commotion',
+   "Perpetual Commotion": {
       min_players:2,
       max_players:6,
       playtime:45,
@@ -491,8 +450,7 @@ const game_lib = [
       bgg_rating:6.3,
       our_rating:null,
    },
-   {
-      game:'Pirate Fluxx',
+   "Pirate Fluxx": {
       min_players:2,
       max_players:6,
       playtime:40,
@@ -503,8 +461,7 @@ const game_lib = [
       bgg_rating:6.19,
       our_rating:null,
    },
-   {
-      game:'Race for the Galaxy',
+   "Race for the Galaxy": {
       min_players:2,
       max_players:6,
       playtime:60,
@@ -515,8 +472,7 @@ const game_lib = [
       bgg_rating:7.75,
       our_rating:8,
    },
-   {
-      game:'Racko',
+   Racko: {
       min_players:2,
       max_players:4,
       playtime:45,
@@ -527,8 +483,7 @@ const game_lib = [
       bgg_rating:5.82,
       our_rating:null,
    },
-   {
-      game:'Red November',
+   "Red November": {
       min_players:1,
       max_players:8,
       playtime:120,
@@ -539,8 +494,7 @@ const game_lib = [
       bgg_rating:6.33,
       our_rating:null,
    },
-   {
-      game:'Sentinels of the Multiverse',
+   "Sentinels of the Multiverse": {
       min_players:1,
       max_players:5,
       playtime:60,
@@ -551,8 +505,7 @@ const game_lib = [
       bgg_rating:7.16,
       our_rating:null,
    },
-   {
-      game:'Sequence',
+   Sequence: {
       min_players:2,
       max_players:12,
       playtime:30,
@@ -563,8 +516,7 @@ const game_lib = [
       bgg_rating:6.09,
       our_rating:null,
    },
-   {
-      game:'Sheriff of Nottingham',
+   "Sheriff of Nottingham": {
       min_players:3,
       max_players:5,
       playtime:60,
@@ -575,8 +527,7 @@ const game_lib = [
       bgg_rating:7.09,
       our_rating:6,
    },
-   {
-      game:'Spheres of Influence',
+   "Spheres of Influence": {
       min_players:2,
       max_players:8,
       playtime:90,
@@ -587,8 +538,7 @@ const game_lib = [
       bgg_rating:7.92,
       our_rating:null,
    },
-   {
-      game:'Splendor',
+   Splendor: {
       min_players:2,
       max_players:4,
       playtime:30,
@@ -599,8 +549,7 @@ const game_lib = [
       bgg_rating:7.43,
       our_rating:6,
    },
-   {
-      game:'Star Fluxx',
+   "Star Fluxx": {
       min_players:2,
       max_players:6,
       playtime:40,
@@ -611,8 +560,7 @@ const game_lib = [
       bgg_rating:6.31,
       our_rating:8,
    },
-   {
-      game:'Stealth Chess',
+   "Stealth Chess": {
       min_players:2,
       max_players:2,
       playtime:30,
@@ -623,8 +571,7 @@ const game_lib = [
       bgg_rating:5.79,
       our_rating:null,
    },
-   {
-      game:'Strain',
+   Strain: {
       min_players:3,
       max_players:7,
       playtime:60,
@@ -635,8 +582,7 @@ const game_lib = [
       bgg_rating:5.52,
       our_rating:null,
    },
-   {
-      game:'The Crew',
+   "The Crew": {
       min_players:2,
       max_players:5,
       playtime:20,
@@ -647,8 +593,7 @@ const game_lib = [
       bgg_rating:7.86,
       our_rating:null,
    },
-   {
-      game:'The Mind',
+   "The Mind": {
       min_players:2,
       max_players:4,
       playtime:20,
@@ -659,8 +604,7 @@ const game_lib = [
       bgg_rating:6.79,
       our_rating:null,
    },
-   {
-      game:'Think Str8',
+   "Think Str8": {
       min_players:2,
       max_players:4,
       playtime:60,
@@ -671,8 +615,7 @@ const game_lib = [
       bgg_rating:6.9,
       our_rating:null,
    },
-   {
-      game:'Ticket to Ride',
+   "Ticket to Ride": {
       min_players:2,
       max_players:5,
       playtime:60,
@@ -683,8 +626,7 @@ const game_lib = [
       bgg_rating:8,
       our_rating:null,
    },
-   {
-      game:'Tsuro',
+   Tsuro: {
       min_players:2,
       max_players:8,
       playtime:20,
@@ -695,8 +637,7 @@ const game_lib = [
       bgg_rating:6.66,
       our_rating:null,
    },
-   {
-      game:'Uno',
+   Uno: {
       min_players:2,
       max_players:10,
       playtime:30,
@@ -707,8 +648,7 @@ const game_lib = [
       bgg_rating:5.43,
       our_rating:null,
    },
-   {
-      game:'Upwords',
+   Upwords: {
       min_players:2,
       max_players:4,
       playtime:90,
@@ -719,8 +659,7 @@ const game_lib = [
       bgg_rating:5.74,
       our_rating:null,
    },
-   {
-      game:'Welcome to the Dungeon',
+   "Welcome to the Dungeon": {
       min_players:2,
       max_players:4,
       playtime:30,
@@ -731,8 +670,7 @@ const game_lib = [
       bgg_rating:6.56,
       our_rating:null,
    },
-   {
-      game:'Werewords',
+   Werewords: {
       min_players:4,
       max_players:10,
       playtime:10,
@@ -743,4 +681,4 @@ const game_lib = [
       bgg_rating:7.15,
       our_rating:null,
    }
-]
+}
